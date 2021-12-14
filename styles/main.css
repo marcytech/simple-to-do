@@ -1,0 +1,102 @@
+
+body,label, input, button, form{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #50D696;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    max-width: 1180px;
+}
+
+ form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+}
+
+form h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: #45cf8d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+form > label{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+}
+form  span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#45cf8d;
+    width: 100%;
+    padding-bottom:  .7rem;
+    font-size:  .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+form  input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border:1px #45cf8d solid;
+    border-radius: 5px;
+    width: 100%;
+    padding:15px;
+    font-size:  .875rem;
+    font-weight: 600;
+    background: #D7ECE1;
+    color: #57685f;
+    text-transform: uppercase;
+
+}
+form  button{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border:1px #c1cec6 solid;
+    border-radius: 5px;
+    width:calc(50% - 7.5px);
+    padding:15px;
+    font-size:  .875rem;
+    font-weight: 600;
+    background: #fff;
+    color: #c1cec6;
+    text-transform: uppercase;
+}
+form .btn-red {
+    border-color: #e9b0b0;
+    color: #e9b0b0;
+}
+form .btn-green {
+    background: #45cf8d;
+    border-color: #45cf8d;
+    color: #fff;
+}
