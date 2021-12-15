@@ -2,22 +2,55 @@
 body,label, input, button, form{
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    background: #50D696;
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #50D696;
+    
 }
 .content{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100vh;
     max-width: 1180px;
+
 }
 
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.create-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top:5rem;
+    border-radius: 100%;
+    border: 0;
+    background: #3cbb7e;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.create-task:hover {
+    top: 6rem;
+    background: #39da8c;
+}
  form{
     display: flex;
     justify-content: space-between;
@@ -40,6 +73,10 @@ form h1 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+}
+
+form img {
+    cursor: pointer;
 }
 
 form > label{
@@ -90,6 +127,7 @@ form  button{
     background: #fff;
     color: #c1cec6;
     text-transform: uppercase;
+    cursor: pointer;
 }
 form .btn-red {
     border-color: #e9b0b0;
@@ -99,4 +137,8 @@ form .btn-green {
     background: #45cf8d;
     border-color: #45cf8d;
     color: #fff;
+}
+
+.hide {
+    display: none;
 }

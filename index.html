@@ -17,17 +17,24 @@
 
     <div class="container">
         <div class="content">
-            <form>
+
+            <div class="box">
+                <button class="create-task">
+                    <img src="./images/icon-plus.svg" alt="Criar Tarefa">
+                </button>
+            </div>
+
+            <form class="hide">
                 <h1>Nova Tarefa
-                    <img src="./images/icon-clese.svg" alt="Fechar">
+                    <img src="./images/icon-clese.svg" alt="Fechar" id="btnClose">
                 </h1>
                 <label>
                     <span>Titulo da task</span>
                     <input type="text">
                 </label>
 
-                <button class="btn-red">Cancelar</button>
-                <button class="btn-green">Criar</button>
+                <button class="btn-red" id="btnCancel">Cancelar</button>
+                <button class="btn-green" id="btnSave">Criar</button>
 
             </form>
         </div>
