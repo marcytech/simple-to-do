@@ -10,6 +10,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/form.css">
     <link rel="stylesheet" href="./styles/main.css">
     <title>Document</title>
 </head>
@@ -33,13 +34,21 @@
                     <input type="text">
                 </label>
 
-                <button class="btn-red" id="btnCancel">Cancelar</button>
-                <button class="btn-green" id="btnSave">Criar</button>
+                <button class="btn btn-red" id="btnCancel">Cancelar</button>
+                <button class="btn btn-green" id="btnSave">Criar</button>
 
             </form>
+            <div class="task-wrapper hide">
+                <h1 class="task-header">
+                    Tarefas Cadastradas
+                    <img src="./images/icon-clese.svg" alt="Fechar" id="btnClose">
+                </h1>
+                <ul class="task-list"></ul>
+            </div>
+
         </div>
     </div>
 
-    <script src="./src/main.js"></script>
+    <script src="./src/main.js" type="module"></script>
 </body>
 </html>

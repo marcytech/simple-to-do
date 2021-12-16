@@ -1,0 +1,24 @@
+.btn {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border:1px #c1cec6 solid;
+    border-radius: 5px;
+    width:120px;
+    padding:15px;
+    font-size:  .875rem;
+    font-weight: 600;
+    background: #fff;
+    color: #c1cec6;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn.btn-red {
+    border-color: #e9b0b0;
+    color: #e9b0b0;
+}
+.btn.btn-green {
+    background: #45cf8d;
+    border-color: #45cf8d;
+    color: #fff;
+}
